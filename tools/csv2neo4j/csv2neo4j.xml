@@ -1,6 +1,6 @@
 <tool id="csv2neo4j" name="csv2neo4j" version="0.1">
   <requirements>
-    <requirement type="docker">neo4j</requirement>
+	<container type="docker">neo4j</container>
   </requirements>
   <description>Import CSV files into a Neo4J database</description>
   <command><![CDATA[/var/lib/neo4j/bin/neo4j-import --into "${os.path.join($output.files_path,'neo4jdb')}"
