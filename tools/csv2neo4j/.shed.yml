@@ -1,0 +1,8 @@
+categories:
+  - Convert Formats
+description: Import CSV files into a Neo4J database
+long_description: Import CSV files into a Neo4J database.
+name: csv2neo4j
+owner: thomaswollmann
+homepage_url: https://github.com/BMCV
+remote_repository_url: https://github.com/BMCV/galaxy-image-analysis/tools/csv2neo4j/
